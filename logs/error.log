@@ -1,0 +1,918 @@
+[11/Jan/2015:03:26:20] ENGINE Listening for SIGHUP.
+[11/Jan/2015:03:26:20] ENGINE Listening for SIGTERM.
+[11/Jan/2015:03:26:20] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:03:26:20] ENGINE Bus STARTING
+[11/Jan/2015:03:26:20] ENGINE Setting up Mako resources
+[11/Jan/2015:03:26:20] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:03:26:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:03:26:21] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:03:26:21] ENGINE Bus STARTED
+[11/Jan/2015:03:34:35] ENGINE Restarting because /home/mike/Documents/noc-tools/server.py changed.
+[11/Jan/2015:03:34:35] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:03:34:35] ENGINE Bus STOPPING
+[11/Jan/2015:03:34:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:03:34:35] ENGINE Freeing up Mako resources
+[11/Jan/2015:03:34:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:03:34:35] ENGINE Bus STOPPED
+[11/Jan/2015:03:34:35] ENGINE Bus EXITING
+[11/Jan/2015:03:34:35] ENGINE Bus EXITED
+[11/Jan/2015:03:34:35] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:03:34:35] ENGINE Re-spawning server.py
+[11/Jan/2015:03:34:35] ENGINE Listening for SIGHUP.
+[11/Jan/2015:03:34:35] ENGINE Listening for SIGTERM.
+[11/Jan/2015:03:34:35] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:03:34:35] ENGINE Bus STARTING
+[11/Jan/2015:03:34:35] ENGINE Setting up Mako resources
+[11/Jan/2015:03:34:35] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:03:34:35] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:03:34:35] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:03:34:35] ENGINE Bus STARTED
+[11/Jan/2015:03:37:52] ENGINE Restarting because /home/mike/Documents/noc-tools/server.py changed.
+[11/Jan/2015:03:37:52] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:03:37:52] ENGINE Bus STOPPING
+[11/Jan/2015:03:37:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:03:37:52] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:03:37:52] ENGINE Freeing up Mako resources
+[11/Jan/2015:03:37:52] ENGINE Bus STOPPED
+[11/Jan/2015:03:37:52] ENGINE Bus EXITING
+[11/Jan/2015:03:37:52] ENGINE Bus EXITED
+[11/Jan/2015:03:37:52] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:03:37:52] ENGINE Re-spawning server.py
+[11/Jan/2015:04:37:52] ENGINE Listening for SIGHUP.
+[11/Jan/2015:04:37:52] ENGINE Listening for SIGTERM.
+[11/Jan/2015:04:37:52] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:04:37:52] ENGINE Bus STARTING
+[11/Jan/2015:04:37:52] ENGINE Setting up Mako resources
+[11/Jan/2015:04:37:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:04:37:52] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:04:37:52] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:04:37:52] ENGINE Bus STARTED
+[11/Jan/2015:04:38:04] HTTP 
+Request Headers:
+  COOKIE: session_id=d8cc8586b594d2056972e492c6f9220e7ccb4393
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:04:38:24] ENGINE Restarting because /home/mike/Documents/noc-tools/server.py changed.
+[11/Jan/2015:04:38:24] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:04:38:24] ENGINE Bus STOPPING
+[11/Jan/2015:04:38:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:04:38:24] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:04:38:24] ENGINE Freeing up Mako resources
+[11/Jan/2015:04:38:24] ENGINE Bus STOPPED
+[11/Jan/2015:04:38:24] ENGINE Bus EXITING
+[11/Jan/2015:04:38:24] ENGINE Bus EXITED
+[11/Jan/2015:04:38:24] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:04:38:24] ENGINE Re-spawning server.py
+[11/Jan/2015:04:38:24] ENGINE Listening for SIGHUP.
+[11/Jan/2015:04:38:24] ENGINE Listening for SIGTERM.
+[11/Jan/2015:04:38:24] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:04:38:24] ENGINE Bus STARTING
+[11/Jan/2015:04:38:24] ENGINE Setting up Mako resources
+[11/Jan/2015:04:38:24] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:04:38:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:04:38:24] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:04:38:24] ENGINE Bus STARTED
+[11/Jan/2015:04:38:45] ENGINE Restarting because /home/mike/Documents/noc-tools/conf/app.cfg changed.
+[11/Jan/2015:04:38:45] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:04:38:45] ENGINE Bus STOPPING
+[11/Jan/2015:04:38:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:04:38:45] ENGINE Freeing up Mako resources
+[11/Jan/2015:04:38:45] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:04:38:45] ENGINE Bus STOPPED
+[11/Jan/2015:04:38:45] ENGINE Bus EXITING
+[11/Jan/2015:04:38:45] ENGINE Bus EXITED
+[11/Jan/2015:04:38:45] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:04:38:45] ENGINE Re-spawning server.py
+[11/Jan/2015:04:38:46] ENGINE Listening for SIGHUP.
+[11/Jan/2015:04:38:46] ENGINE Listening for SIGTERM.
+[11/Jan/2015:04:38:46] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:04:38:46] ENGINE Bus STARTING
+[11/Jan/2015:04:38:46] ENGINE Setting up Mako resources
+[11/Jan/2015:04:38:46] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:04:38:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:04:38:46] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:04:38:46] ENGINE Bus STARTED
+[11/Jan/2015:04:39:25] ENGINE Keyboard Interrupt: shutting down bus
+[11/Jan/2015:04:39:25] ENGINE Bus STOPPING
+[11/Jan/2015:04:39:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:04:39:25] ENGINE Freeing up Mako resources
+[11/Jan/2015:04:39:25] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:04:39:25] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:04:39:25] ENGINE Bus STOPPED
+[11/Jan/2015:04:39:25] ENGINE Bus EXITING
+[11/Jan/2015:04:39:25] ENGINE Bus EXITED
+[11/Jan/2015:04:39:25] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:04:39:26] ENGINE Listening for SIGHUP.
+[11/Jan/2015:04:39:26] ENGINE Listening for SIGTERM.
+[11/Jan/2015:04:39:26] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:04:39:26] ENGINE Bus STARTING
+[11/Jan/2015:04:39:26] ENGINE Setting up Mako resources
+[11/Jan/2015:04:39:26] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:04:39:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:04:39:27] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:04:39:27] ENGINE Bus STARTED
+[11/Jan/2015:04:39:39] ENGINE Keyboard Interrupt: shutting down bus
+[11/Jan/2015:04:39:39] ENGINE Bus STOPPING
+[11/Jan/2015:04:39:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:04:39:39] ENGINE Freeing up Mako resources
+[11/Jan/2015:04:39:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:04:39:39] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:04:39:39] ENGINE Bus STOPPED
+[11/Jan/2015:04:39:39] ENGINE Bus EXITING
+[11/Jan/2015:04:39:39] ENGINE Bus EXITED
+[11/Jan/2015:04:39:39] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:04:40:45] ENGINE Listening for SIGHUP.
+[11/Jan/2015:04:40:45] ENGINE Listening for SIGTERM.
+[11/Jan/2015:04:40:45] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:04:40:45] ENGINE Bus STARTING
+[11/Jan/2015:04:40:45] ENGINE Setting up Mako resources
+[11/Jan/2015:04:40:45] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:04:40:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:04:40:46] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:04:40:46] ENGINE Bus STARTED
+[11/Jan/2015:04:42:13] ENGINE Restarting because /home/mike/Documents/noc-tools/server.py changed.
+[11/Jan/2015:04:42:13] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:04:42:13] ENGINE Bus STOPPING
+[11/Jan/2015:04:42:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:04:42:13] ENGINE Freeing up Mako resources
+[11/Jan/2015:04:42:13] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:04:42:13] ENGINE Bus STOPPED
+[11/Jan/2015:04:42:13] ENGINE Bus EXITING
+[11/Jan/2015:04:42:13] ENGINE Bus EXITED
+[11/Jan/2015:04:42:13] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:04:42:13] ENGINE Re-spawning server.py
+[11/Jan/2015:04:42:13] ENGINE Listening for SIGHUP.
+[11/Jan/2015:04:42:13] ENGINE Listening for SIGTERM.
+[11/Jan/2015:04:42:13] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:04:42:13] ENGINE Bus STARTING
+[11/Jan/2015:04:42:13] ENGINE Setting up Mako resources
+[11/Jan/2015:04:42:13] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:04:42:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:04:42:13] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:04:42:13] ENGINE Bus STARTED
+[11/Jan/2015:04:44:20] ENGINE Restarting because /home/mike/Documents/noc-tools/server.py changed.
+[11/Jan/2015:04:44:20] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:04:44:20] ENGINE Bus STOPPING
+[11/Jan/2015:04:44:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:04:44:20] ENGINE Freeing up Mako resources
+[11/Jan/2015:04:44:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:04:44:20] ENGINE Bus STOPPED
+[11/Jan/2015:04:44:20] ENGINE Bus EXITING
+[11/Jan/2015:04:44:20] ENGINE Bus EXITED
+[11/Jan/2015:04:44:20] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:04:44:20] ENGINE Re-spawning server.py
+[11/Jan/2015:04:44:20] ENGINE Listening for SIGHUP.
+[11/Jan/2015:04:44:20] ENGINE Listening for SIGTERM.
+[11/Jan/2015:04:44:20] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:04:44:20] ENGINE Bus STARTING
+[11/Jan/2015:04:44:20] ENGINE Setting up Mako resources
+[11/Jan/2015:04:44:20] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:04:44:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:04:44:21] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:04:44:21] ENGINE Bus STARTED
+[11/Jan/2015:04:44:40] ENGINE Restarting because /home/mike/Documents/noc-tools/webapp/app.py changed.
+[11/Jan/2015:04:44:40] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:04:44:40] ENGINE Bus STOPPING
+[11/Jan/2015:04:44:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:04:44:40] ENGINE Freeing up Mako resources
+[11/Jan/2015:04:44:40] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:04:44:40] ENGINE Bus STOPPED
+[11/Jan/2015:04:44:40] ENGINE Bus EXITING
+[11/Jan/2015:04:44:40] ENGINE Bus EXITED
+[11/Jan/2015:04:44:41] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:04:44:41] ENGINE Re-spawning server.py
+[11/Jan/2015:04:44:41] ENGINE Listening for SIGHUP.
+[11/Jan/2015:04:44:41] ENGINE Listening for SIGTERM.
+[11/Jan/2015:04:44:41] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:04:44:41] ENGINE Bus STARTING
+[11/Jan/2015:04:44:41] ENGINE Setting up Mako resources
+[11/Jan/2015:04:44:41] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:04:44:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:04:44:41] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:04:44:41] ENGINE Bus STARTED
+[11/Jan/2015:04:46:28] ENGINE Restarting because /home/mike/Documents/noc-tools/webapp/app.py changed.
+[11/Jan/2015:04:46:28] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:04:46:28] ENGINE Bus STOPPING
+[11/Jan/2015:04:46:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:04:46:28] ENGINE Freeing up Mako resources
+[11/Jan/2015:04:46:28] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:04:46:28] ENGINE Bus STOPPED
+[11/Jan/2015:04:46:28] ENGINE Bus EXITING
+[11/Jan/2015:04:46:28] ENGINE Bus EXITED
+[11/Jan/2015:04:46:28] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:04:46:28] ENGINE Re-spawning server.py
+[11/Jan/2015:05:28:25] ENGINE Listening for SIGHUP.
+[11/Jan/2015:05:28:25] ENGINE Listening for SIGTERM.
+[11/Jan/2015:05:28:25] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:05:28:25] ENGINE Bus STARTING
+[11/Jan/2015:05:28:25] ENGINE Setting up Mako resources
+[11/Jan/2015:05:28:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:05:28:25] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:05:28:26] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:05:28:26] ENGINE Bus STARTED
+[11/Jan/2015:05:28:29] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f06e6b1fc90>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:28:29]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:28:29] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:28:29] HTTP 
+Request Headers:
+  COOKIE: session_id=0d4461a2551fb94af10a12df3b851d953dc93d46
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:29:54] ENGINE Restarting because /home/mike/Documents/noc-tools/server.py changed.
+[11/Jan/2015:05:29:54] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:05:29:54] ENGINE Bus STOPPING
+[11/Jan/2015:05:29:54] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:05:29:54] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:05:29:54] ENGINE Freeing up Mako resources
+[11/Jan/2015:05:29:54] ENGINE Bus STOPPED
+[11/Jan/2015:05:29:54] ENGINE Bus EXITING
+[11/Jan/2015:05:29:54] ENGINE Bus EXITED
+[11/Jan/2015:05:29:54] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:05:29:54] ENGINE Re-spawning server.py
+[11/Jan/2015:05:29:54] ENGINE Listening for SIGHUP.
+[11/Jan/2015:05:29:54] ENGINE Listening for SIGTERM.
+[11/Jan/2015:05:29:54] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:05:29:54] ENGINE Bus STARTING
+[11/Jan/2015:05:29:54] ENGINE Setting up Mako resources
+[11/Jan/2015:05:29:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:05:29:54] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:05:29:54] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:05:29:54] ENGINE Bus STARTED
+[11/Jan/2015:05:29:58] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f75c0b529d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:29:58]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:29:58] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:29:58] HTTP 
+Request Headers:
+  COOKIE: session_id=73cb10ee32d408adb34215182635a2ede7690c1d
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:30:00] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f75c0b529d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:30:00]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:00] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:00] HTTP 
+Request Headers:
+  COOKIE: session_id=5686437e5ec55905529f49e7099107fa2aab91ac
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:30:01] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f75c0b529d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:30:01]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:01] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:01] HTTP 
+Request Headers:
+  COOKIE: session_id=fc4c7b011349343610cc70d8fb27d3a3676d9313
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:30:01] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f75c0b529d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:30:01]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:01] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:01] HTTP 
+Request Headers:
+  COOKIE: session_id=086a0e3a21700dbcf09eb3b43a3b091cbee81540
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:30:01] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f75c0b529d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:30:01]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:01] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:01] HTTP 
+Request Headers:
+  COOKIE: session_id=27fc1ab5660c8070a9d23b4c8356d5f1116665a2
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:30:02] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f75c0b529d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:30:02]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:02] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:02] HTTP 
+Request Headers:
+  COOKIE: session_id=f1c87548e3006255b6572adc5f9f5693eca55955
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:30:02] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f75c0b529d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:30:02]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:02] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:02] HTTP 
+Request Headers:
+  COOKIE: session_id=c63011b6d6c1c6e9479ea8edab96645260649f24
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:30:47] ENGINE Restarting because /home/mike/Documents/noc-tools/conf/server.cfg changed.
+[11/Jan/2015:05:30:47] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:05:30:47] ENGINE Bus STOPPING
+[11/Jan/2015:05:30:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:05:30:47] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:05:30:47] ENGINE Freeing up Mako resources
+[11/Jan/2015:05:30:47] ENGINE Bus STOPPED
+[11/Jan/2015:05:30:47] ENGINE Bus EXITING
+[11/Jan/2015:05:30:47] ENGINE Bus EXITED
+[11/Jan/2015:05:30:47] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:05:30:47] ENGINE Re-spawning server.py
+[11/Jan/2015:05:30:47] ENGINE Listening for SIGHUP.
+[11/Jan/2015:05:30:47] ENGINE Listening for SIGTERM.
+[11/Jan/2015:05:30:47] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:05:30:47] ENGINE Bus STARTING
+[11/Jan/2015:05:30:47] ENGINE Setting up Mako resources
+[11/Jan/2015:05:30:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:05:30:47] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:05:30:47] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:05:30:47] ENGINE Bus STARTED
+[11/Jan/2015:05:30:50] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7fc8aacba9d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri 'index.mako'
+
+[11/Jan/2015:05:30:50]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:50] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri 'index.mako'",)
+
+[11/Jan/2015:05:30:50] HTTP 
+Request Headers:
+  COOKIE: session_id=0f87d8bf1d20294f3695b18649e7bfcfaf295714
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:43:50] ENGINE Restarting because /home/mike/Documents/noc-tools/webapp/app.py changed.
+[11/Jan/2015:05:43:50] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:05:43:50] ENGINE Bus STOPPING
+[11/Jan/2015:05:43:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:05:43:50] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:05:43:50] ENGINE Freeing up Mako resources
+[11/Jan/2015:05:43:50] ENGINE Bus STOPPED
+[11/Jan/2015:05:43:50] ENGINE Bus EXITING
+[11/Jan/2015:05:43:50] ENGINE Bus EXITED
+[11/Jan/2015:05:43:50] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:05:43:50] ENGINE Re-spawning server.py
+[11/Jan/2015:05:43:51] ENGINE Listening for SIGHUP.
+[11/Jan/2015:05:43:51] ENGINE Listening for SIGTERM.
+[11/Jan/2015:05:43:51] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:05:43:51] ENGINE Bus STARTING
+[11/Jan/2015:05:43:51] ENGINE Setting up Mako resources
+[11/Jan/2015:05:43:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:05:43:51] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:05:43:51] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:05:43:51] ENGINE Bus STARTED
+[11/Jan/2015:05:43:58] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7fbf7c4cda10>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri '/template/index.mako'
+
+[11/Jan/2015:05:43:58]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri '/template/index.mako'",)
+
+[11/Jan/2015:05:43:58] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri '/template/index.mako'",)
+
+[11/Jan/2015:05:43:58] HTTP 
+Request Headers:
+  COOKIE: session_id=d0fbb69a7ad23c3bf1c9a48e6370b9dd32f4905e
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:43:59] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7fbf7c4cda10>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri '/template/index.mako'
+
+[11/Jan/2015:05:43:59]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri '/template/index.mako'",)
+
+[11/Jan/2015:05:43:59] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri '/template/index.mako'",)
+
+[11/Jan/2015:05:43:59] HTTP 
+Request Headers:
+  COOKIE: session_id=df9bfbb09b81347cd5d12c169a50d6031b82be8f
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:44:20] ENGINE Restarting because /home/mike/Documents/noc-tools/webapp/app.py changed.
+[11/Jan/2015:05:44:20] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:05:44:20] ENGINE Bus STOPPING
+[11/Jan/2015:05:44:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:05:44:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:05:44:20] ENGINE Freeing up Mako resources
+[11/Jan/2015:05:44:20] ENGINE Bus STOPPED
+[11/Jan/2015:05:44:20] ENGINE Bus EXITING
+[11/Jan/2015:05:44:20] ENGINE Bus EXITED
+[11/Jan/2015:05:44:20] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:05:44:20] ENGINE Re-spawning server.py
+[11/Jan/2015:05:44:20] ENGINE Listening for SIGHUP.
+[11/Jan/2015:05:44:20] ENGINE Listening for SIGTERM.
+[11/Jan/2015:05:44:20] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:05:44:20] ENGINE Bus STARTING
+[11/Jan/2015:05:44:20] ENGINE Setting up Mako resources
+[11/Jan/2015:05:44:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:05:44:20] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:05:44:20] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:05:44:20] ENGINE Bus STARTED
+[11/Jan/2015:05:44:22] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f163b1b09d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri '/home/meder/Documents/noc-tools/template/index.mako'
+
+[11/Jan/2015:05:44:22]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri '/home/meder/Documents/noc-tools/template/index.mako'",)
+
+[11/Jan/2015:05:44:22] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri '/home/meder/Documents/noc-tools/template/index.mako'",)
+
+[11/Jan/2015:05:44:22] HTTP 
+Request Headers:
+  COOKIE: session_id=ca1be0b832d062049510efd11cf338b7a86163be
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:44:24] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f163b1b09d0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 248, in get_template
+    "Cant locate template for uri %r" % uri)
+TopLevelLookupException: Cant locate template for uri '/home/meder/Documents/noc-tools/template/index.mako'
+
+[11/Jan/2015:05:44:24]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri '/home/meder/Documents/noc-tools/template/index.mako'",)
+
+[11/Jan/2015:05:44:24] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: TopLevelLookupException("Cant locate template for uri '/home/meder/Documents/noc-tools/template/index.mako'",)
+
+[11/Jan/2015:05:44:24] HTTP 
+Request Headers:
+  COOKIE: session_id=6e0dbfbc5d0a45e5774c94d502941e1bb181c04f
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:05:44:45] ENGINE Restarting because /home/mike/Documents/noc-tools/webapp/app.py changed.
+[11/Jan/2015:05:44:45] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:05:44:45] ENGINE Bus STOPPING
+[11/Jan/2015:05:44:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:05:44:45] ENGINE Freeing up Mako resources
+[11/Jan/2015:05:44:45] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:05:44:45] ENGINE Bus STOPPED
+[11/Jan/2015:05:44:45] ENGINE Bus EXITING
+[11/Jan/2015:05:44:45] ENGINE Bus EXITED
+[11/Jan/2015:05:44:45] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:05:44:45] ENGINE Re-spawning server.py
+[11/Jan/2015:05:44:45] ENGINE Listening for SIGHUP.
+[11/Jan/2015:05:44:45] ENGINE Listening for SIGTERM.
+[11/Jan/2015:05:44:45] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:05:44:45] ENGINE Bus STARTING
+[11/Jan/2015:05:44:45] ENGINE Setting up Mako resources
+[11/Jan/2015:05:44:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:05:44:45] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:05:44:45] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:05:44:45] ENGINE Bus STARTED
+[11/Jan/2015:05:46:02] ENGINE Restarting because /home/mike/Documents/noc-tools/server.py changed.
+[11/Jan/2015:05:46:02] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:05:46:02] ENGINE Bus STOPPING
+[11/Jan/2015:05:46:02] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:05:46:02] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:05:46:02] ENGINE Freeing up Mako resources
+[11/Jan/2015:05:46:02] ENGINE Bus STOPPED
+[11/Jan/2015:05:46:02] ENGINE Bus EXITING
+[11/Jan/2015:05:46:02] ENGINE Bus EXITED
+[11/Jan/2015:05:46:02] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:05:46:02] ENGINE Re-spawning server.py
+[11/Jan/2015:05:46:03] ENGINE Listening for SIGHUP.
+[11/Jan/2015:05:46:03] ENGINE Listening for SIGTERM.
+[11/Jan/2015:05:46:03] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:05:46:03] ENGINE Bus STARTING
+[11/Jan/2015:05:46:03] ENGINE Setting up Mako resources
+[11/Jan/2015:05:46:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:05:46:03] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:05:46:03] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:05:46:03] ENGINE Bus STARTED
+[11/Jan/2015:05:47:30] ENGINE Restarting because /home/mike/Documents/noc-tools/webapp/app.py changed.
+[11/Jan/2015:05:47:30] ENGINE Stopped thread 'Autoreloader'.
+[11/Jan/2015:05:47:30] ENGINE Bus STOPPING
+[11/Jan/2015:05:47:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[11/Jan/2015:05:47:30] ENGINE Stopped thread '_TimeoutMonitor'.
+[11/Jan/2015:05:47:30] ENGINE Freeing up Mako resources
+[11/Jan/2015:05:47:30] ENGINE Bus STOPPED
+[11/Jan/2015:05:47:30] ENGINE Bus EXITING
+[11/Jan/2015:05:47:30] ENGINE Bus EXITED
+[11/Jan/2015:05:47:30] ENGINE Waiting for child threads to terminate...
+[11/Jan/2015:05:47:30] ENGINE Re-spawning server.py
+[11/Jan/2015:05:47:30] ENGINE Listening for SIGHUP.
+[11/Jan/2015:05:47:30] ENGINE Listening for SIGTERM.
+[11/Jan/2015:05:47:30] ENGINE Listening for SIGUSR1.
+[11/Jan/2015:05:47:30] ENGINE Bus STARTING
+[11/Jan/2015:05:47:30] ENGINE Setting up Mako resources
+[11/Jan/2015:05:47:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[11/Jan/2015:05:47:30] ENGINE Started monitor thread 'Autoreloader'.
+[11/Jan/2015:05:47:30] ENGINE Serving on http://0.0.0.0:9000
+[11/Jan/2015:05:47:30] ENGINE Bus STARTED
+[11/Jan/2015:06:32:17] ENGINE Error in 'lookup-template' listener <bound method MakoTemplatePlugin.get_template of <lib.plugins.template.MakoTemplatePlugin object at 0x7f978aff7a10>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 205, in publish
+    output.append(listener(*args, **kwargs))
+  File "/home/mike/Documents/noc-tools/lib/plugins/template.py", line 40, in get_template
+    return self.lookup.get_template(name)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 237, in get_template
+    return self._check(uri, self._collection[uri])
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 331, in _check
+    return self._load(template.filename, uri)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lookup.py", line 311, in _load
+    **self.template_args)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/template.py", line 321, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/template.py", line 378, in _compile_from_file
+    self.module_writer)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/template.py", line 680, in _compile_module_file
+    generate_magic_comment=True)
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/template.py", line 647, in _compile
+    node = lexer.parse()
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lexer.py", line 234, in parse
+    if self.match_control_line():
+  File "/usr/local/lib/python2.7/dist-packages/Mako-1.0.0-py2.7.egg/mako/lexer.py", line 411, in match_control_line
+    **self.exception_kwargs)
+SyntaxException: Invalid control line: '' in file '/home/mike/Documents/noc-tools/template/index.mako' at line: 37 char: 1
+
+[11/Jan/2015:06:32:17]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/home/mike/Documents/noc-tools/lib/tools/template.py", line 22, in _render
+    template = cherrypy.engine.publish("lookup-template", template).pop()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 223, in publish
+    raise exc
+ChannelFailures: SyntaxException(u"Invalid control line: '' in file '/home/mike/Documents/noc-tools/template/index.mako' at line: 37 char: 1",)
+
+[11/Jan/2015:06:32:17] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: SyntaxException(u"Invalid control line: '' in file '/home/mike/Documents/noc-tools/template/index.mako' at line: 37 char: 1",)
+
+[11/Jan/2015:06:32:17] HTTP 
+Request Headers:
+  COOKIE: session_id=6f24132140352b2d88fc930ab749e5ba373b2421
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
