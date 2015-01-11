@@ -11,7 +11,7 @@ class MakoTool(cherrypy.Tool):
   def __init__(self):
     cherrypy.Tool.__init__(self, 'before_finalize',
                            self._render,
-                           priority=30)
+                           priority=50)
     
   def _render(self, template=None, debug=True):
     if cherrypy.response.status > 399:

@@ -403,3 +403,764 @@ Request Headers:
   USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
   ACCEPT-LANGUAGE: en-US,en;q=0.8
   ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:00:12] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=0ff25c7e55a0e81e8eac15a55174acf191faa353
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:00:12] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 69, in __call__
+    raise x
+TypeError: 'StringGenerator' object is not callable
+
+[11/Jan/2015:07:11:14]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/cptools.py", line 239, in response_headers
+    for name, value in (headers or []):
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:14] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=1491b7754856a5e7dfde5896b908cdf1bab7d904
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:11:14] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 650, in respond
+    self.hooks.run('on_start_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:15]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/cptools.py", line 239, in response_headers
+    for name, value in (headers or []):
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:15] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=1491b7754856a5e7dfde5896b908cdf1bab7d904
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:11:15] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 650, in respond
+    self.hooks.run('on_start_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:18]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/cptools.py", line 239, in response_headers
+    for name, value in (headers or []):
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:18] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=c30c7ac5e733340bd0f325c5b685858442010c52
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:11:18] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 650, in respond
+    self.hooks.run('on_start_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:22]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/cptools.py", line 239, in response_headers
+    for name, value in (headers or []):
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:22] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=c30c7ac5e733340bd0f325c5b685858442010c52
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:11:22] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 650, in respond
+    self.hooks.run('on_start_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:24]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/cptools.py", line 239, in response_headers
+    for name, value in (headers or []):
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:11:24] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=c30c7ac5e733340bd0f325c5b685858442010c52
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:11:24] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 650, in respond
+    self.hooks.run('on_start_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ValueError: too many values to unpack
+
+[11/Jan/2015:07:12:25] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=1f7b9182a83c5e5d598dd198d18957a6755486e5
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:12:25] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 20, in POST
+    some_string = ''.join(random.sample(string.hexdigits, int(length)))
+NameError: global name 'random' is not defined
+
+[11/Jan/2015:07:13:07] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=8136dd24efaf82ec2b3fc2519529a1c7c6b6d950
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:13:07] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:13:13] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=1957c780df2bb3b82b879950cc3be2f1f18071c4
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:13:13] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:13:14] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=2beac83ba493ef756b30ec52eedcd969158c7019
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:13:14] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:13:16] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=6b7cf8ac0f8a9b6b027e54ad2ca2596224a89208
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:13:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:14:29] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=47b00b3b5093db5c5ce16104b5a96ca99f87a2fd
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:14:29] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:14:32] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=9ceee06b5ac091a5b0a50757f4bae1826c3c5cbb
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:14:32] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:14:34] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=d391681c15f740b13ad8ba717ad9626edfecba51
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:14:34] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:14:35] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=057f8f7e43518b68a325f9f6e71636cb8ee994b3
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:14:35] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:14:36] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=e6dc4f1f6e773dea4ae90f530f7821f178942a7e
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:14:36] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:14:37] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=bdb84db0b68f8575982fc70bb100611d4afeabc1
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:14:37] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:15:56] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=77cd74f9370996371256d32bec01957e755f85f9
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:15:56] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+AttributeError: 'module' object has no attribute 'session'
+
+[11/Jan/2015:07:16:20] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=77cd74f9370996371256d32bec01957e755f85f9
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:16:20] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:17:33] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=7b1f1976e7dfeade66a5e5849733ff211bf2f99a
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:17:33] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:17:34] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=1ca0819de2242587436a909a41f1ab5b2c0a445d
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:17:34] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:17:36] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=f9bba1404842bd34edaaa2ca399ed037d2dc1649
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:17:36] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/__init__.py", line 250, in __setitem__
+    child[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 313, in __setitem__
+    self.load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 268, in load
+    data = self._load()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/sessions.py", line 501, in _load
+    assert self.locked, ("The session load without being locked.  "
+AssertionError: The session load without being locked.  Check your tools' priority levels.
+
+[11/Jan/2015:07:18:12] HTTP 
+Request Headers:
+  Content-Length: 0
+  COOKIE: session_id=f5dd4c4c9b5e65e57e491e79a617822c57153ece
+  HOST: localhost:9000
+  ORIGIN: http://localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  REFERER: http://localhost:9000/
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:07:18:12] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/mike/Documents/noc-tools/webapp/app.py", line 23, in POST
+    cherrypy.session['mystring'] = some_string
+AttributeError: 'module' object has no attribute 'session'
+
+[11/Jan/2015:08:24:27] HTTP 
+Request Headers:
+  COOKIE: session_id=d508c645df8c115d33f11ede4fd16b54aee228a5
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:08:24:27] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Pages instance as first argument (got nothing instead)
+
+[11/Jan/2015:08:41:32] HTTP 
+Request Headers:
+  COOKIE: session_id=5123fa321e7da8906a89565705ccf734d35cc84f
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:08:41:32] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Pages instance as first argument (got nothing instead)
+
+[11/Jan/2015:09:27:35] HTTP 
+Request Headers:
+  COOKIE: session_id=e2f6e4d395201e9a23f72feea4a3eb9dbfcb1ae9
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:09:27:35] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[11/Jan/2015:09:41:48] HTTP 
+Request Headers:
+  COOKIE: session_id=c1131116c4ed202d21e169693b224ac7cd807d12
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:09:41:48] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[11/Jan/2015:09:43:59] HTTP 
+Request Headers:
+  COOKIE: session_id=73d4419f08bcd28c7312c38fb81ddf87f0d21502
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[11/Jan/2015:09:43:59] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+

@@ -31,9 +31,11 @@ class Server(object):
     from lib.tools.template import MakoTool
     cherrypy.tools.render = MakoTool()
 
-    # Mount app to be run - index() method from below for now
-    from webapp.app import NocTool
-    app = NocTool()
+    # Mount apps to be run 
+    from apps.noctool import Root, Generator
+    app = Root()
+    app.generator = Generator()
+    app.gameAcc = Root.gameAccount
     conf = os.path.join(self.conf_path, 'app.cfg')
     webapp = cherrypy.tree.mount(app, '/', conf)
     self.make_rotate_logs(webapp)

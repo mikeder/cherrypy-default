@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="/static/css/style.css" rel="stylesheet">
 <title>NOC Tool v0.01</title>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+     <script type="text/javascript">
+       $(document).ready(function() {
+
+         $("#generate").click(function(e) {
+           $.post("/generator", {"length": $("select[name='length']").val()})
+            .done(function(string) {
+               $("#string").show();
+               $("#string input").val(string);
+            });
+           e.preventDefault();
+         });
+       });
+     </script>
 </head>
 <body>
 <h2>NOC Tool aka Derpstation 9000</h2>
 <hr>
 Random sequence generator:
 <form name="generator">
-  <select name="selector">
+  <select name="length">
     <option value="5">5</option>
     <option value="6">6</option>
     <option value="7">7</option>
