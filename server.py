@@ -35,7 +35,6 @@ class Server(object):
     from apps.noctool import Root, Generator
     app = Root()
     app.generator = Generator()
-    app.gameAcc = Root.gameAccount
     conf = os.path.join(self.conf_path, 'app.cfg')
     webapp = cherrypy.tree.mount(app, '/', conf)
     self.make_rotate_logs(webapp)
@@ -62,10 +61,11 @@ class Server(object):
     # Run the engine main loop
     engine.block()
 
-  def on_error(self, status, message, traceback, version):
+  def on_error(status, message, traceback, version):
    code = '404' if status.startswith('404') else 'error'
    template = cherrypy.engine.publish('lookup-template', "%s.mako" % code).pop()
    return template.render()
+  cherrypy.config.update({'error_page.default': on_error})
    
   def make_rotate_logs(self, app):
    # see http://www.cherrypy.org/wiki/Logging#CustomHandlers

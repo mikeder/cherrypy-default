@@ -1164,3 +1164,339 @@ Request Headers:
     return self.callable(*self.args, **self.kwargs)
 TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
 
+[25/Jan/2015:04:49:23] HTTP 
+Request Headers:
+  COOKIE: session_id=b5ab59776137fff9a2df348ecd86f9326b960a45
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:49:23] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:51:29] HTTP 
+Request Headers:
+  COOKIE: session_id=471a07b58181050372af72a993af7478f5607527
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:51:29] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:51:31] HTTP 
+Request Headers:
+  COOKIE: session_id=f035664ca153a8e5bc92f8e4ac73de84ba46df95
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:51:31] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:51:42] HTTP 
+Request Headers:
+  COOKIE: session_id=547de5daccb38a0383723e8b340215bb888b438f
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:51:42] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:52:07] HTTP 
+Request Headers:
+  COOKIE: session_id=9dd6c8b1232c62665c7f1e624255e7af6ca382de
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:52:07] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:14:45] HTTP 
+Request Headers:
+  COOKIE: session_id=fc239d516b9b5d872d5ab680b6e2b61d3ac8d952
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:14:45] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:15:01] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:15:01] HTTP 
+Request Headers:
+  COOKIE: session_id=409e12a2efa17c377d660938364780005028206d
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:15:06] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:15:06] HTTP 
+Request Headers:
+  COOKIE: session_id=ae2093c708ac380a2ae786c18bec842c1bb209b1
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:15:23] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:15:23] HTTP 
+Request Headers:
+  COOKIE: session_id=fa676dfb3d3a0c59042174ae53330d120bde3656
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:19:42] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:19:42] HTTP 
+Request Headers:
+  COOKIE: session_id=da495f2da55c8a0431737cfed1dc70d2ee8a0d73
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:53:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:53:16] HTTP 
+Request Headers:
+  COOKIE: session_id=e7423881b7c609727b9c399e42bc94e14df789ee
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:53:17] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:53:17] HTTP 
+Request Headers:
+  COOKIE: session_id=414328ade89d77835ba8c9be8ab68a85c5c22836
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:53:18] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:53:18] HTTP 
+Request Headers:
+  COOKIE: session_id=13ab29d35c5009bf7e2a7cabcab9ebae90384216
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:06:12:29] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:06:12:29] HTTP 
+Request Headers:
+  COOKIE: session_id=88303010f231979098b9009a7e31b540f3cbf297
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:49] HTTP 
+Request Headers:
+  COOKIE: session_id=c649d0f92d1ba979cefc722699aad51a22d700fa
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:49] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:49:54] HTTP 
+Request Headers:
+  COOKIE: session_id=ab49e22007348f59c71b26ee3e6e57f0098d707e
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:54] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:49:55] HTTP 
+Request Headers:
+  COOKIE: session_id=fd139e3197efb3e42640d8ee23e43c97906f6d87
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:55] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:49:57] HTTP 
+Request Headers:
+  COOKIE: session_id=9e1ba43d75337c278263e55e503b25ea21857cb8
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:57] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:52:03] HTTP 
+Request Headers:
+  COOKIE: session_id=ee99e3454ab1123dd8fa10df80fb8433deced420
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:52:03] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+

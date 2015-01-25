@@ -2307,3 +2307,714 @@ TypeError: unbound method gameAccount() must be called with Root instance as fir
 [11/Jan/2015:09:44:07] ENGINE Bus EXITING
 [11/Jan/2015:09:44:07] ENGINE Bus EXITED
 [11/Jan/2015:09:44:07] ENGINE Waiting for child threads to terminate...
+[24/Jan/2015:00:11:32] ENGINE Listening for SIGHUP.
+[24/Jan/2015:00:11:32] ENGINE Listening for SIGTERM.
+[24/Jan/2015:00:11:32] ENGINE Listening for SIGUSR1.
+[24/Jan/2015:00:11:32] ENGINE Bus STARTING
+[24/Jan/2015:00:11:32] ENGINE Setting up Mako resources
+[24/Jan/2015:00:11:32] ENGINE Started monitor thread 'Autoreloader'.
+[24/Jan/2015:00:11:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[24/Jan/2015:00:11:32] ENGINE Serving on http://0.0.0.0:9000
+[24/Jan/2015:00:11:32] ENGINE Bus STARTED
+[24/Jan/2015:00:12:51] ENGINE Started monitor thread 'Session cleanup'.
+[24/Jan/2015:00:14:02] ENGINE Keyboard Interrupt: shutting down bus
+[24/Jan/2015:00:14:02] ENGINE Bus STOPPING
+[24/Jan/2015:00:14:02] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[24/Jan/2015:00:14:02] ENGINE Stopped thread 'Autoreloader'.
+[24/Jan/2015:00:14:02] ENGINE Freeing up Mako resources
+[24/Jan/2015:00:14:02] ENGINE Stopped thread 'Session cleanup'.
+[24/Jan/2015:00:14:02] ENGINE Stopped thread '_TimeoutMonitor'.
+[24/Jan/2015:00:14:02] ENGINE Bus STOPPED
+[24/Jan/2015:00:14:02] ENGINE Bus EXITING
+[24/Jan/2015:00:14:02] ENGINE Bus EXITED
+[24/Jan/2015:00:14:02] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:04:49:12] ENGINE Listening for SIGHUP.
+[25/Jan/2015:04:49:12] ENGINE Listening for SIGTERM.
+[25/Jan/2015:04:49:12] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:04:49:12] ENGINE Bus STARTING
+[25/Jan/2015:04:49:12] ENGINE Setting up Mako resources
+[25/Jan/2015:04:49:12] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:04:49:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:04:49:12] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:04:49:12] ENGINE Bus STARTED
+[25/Jan/2015:04:49:23] HTTP 
+Request Headers:
+  COOKIE: session_id=b5ab59776137fff9a2df348ecd86f9326b960a45
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:49:23] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:50:45] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:04:50:45] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:04:50:45] ENGINE Bus STOPPING
+[25/Jan/2015:04:50:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:04:50:45] ENGINE Freeing up Mako resources
+[25/Jan/2015:04:50:45] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:04:50:45] ENGINE Bus STOPPED
+[25/Jan/2015:04:50:45] ENGINE Bus EXITING
+[25/Jan/2015:04:50:45] ENGINE Bus EXITED
+[25/Jan/2015:04:50:45] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:04:50:45] ENGINE Re-spawning server.py
+[25/Jan/2015:04:51:26] ENGINE Listening for SIGHUP.
+[25/Jan/2015:04:51:26] ENGINE Listening for SIGTERM.
+[25/Jan/2015:04:51:26] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:04:51:26] ENGINE Bus STARTING
+[25/Jan/2015:04:51:26] ENGINE Setting up Mako resources
+[25/Jan/2015:04:51:26] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:04:51:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:04:51:26] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:04:51:26] ENGINE Bus STARTED
+[25/Jan/2015:04:51:29] HTTP 
+Request Headers:
+  COOKIE: session_id=471a07b58181050372af72a993af7478f5607527
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:51:29] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:51:31] HTTP 
+Request Headers:
+  COOKIE: session_id=f035664ca153a8e5bc92f8e4ac73de84ba46df95
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:51:31] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:51:42] HTTP 
+Request Headers:
+  COOKIE: session_id=547de5daccb38a0383723e8b340215bb888b438f
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:51:42] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:52:07] HTTP 
+Request Headers:
+  COOKIE: session_id=9dd6c8b1232c62665c7f1e624255e7af6ca382de
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:04:52:07] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:04:52:35] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:04:52:35] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:04:52:35] ENGINE Bus STOPPING
+[25/Jan/2015:04:52:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:04:52:35] ENGINE Freeing up Mako resources
+[25/Jan/2015:04:52:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:04:52:35] ENGINE Bus STOPPED
+[25/Jan/2015:04:52:35] ENGINE Bus EXITING
+[25/Jan/2015:04:52:35] ENGINE Bus EXITED
+[25/Jan/2015:04:52:35] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:04:52:35] ENGINE Re-spawning server.py
+[25/Jan/2015:04:52:36] ENGINE Listening for SIGHUP.
+[25/Jan/2015:04:52:36] ENGINE Listening for SIGTERM.
+[25/Jan/2015:04:52:36] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:04:52:36] ENGINE Bus STARTING
+[25/Jan/2015:04:52:36] ENGINE Setting up Mako resources
+[25/Jan/2015:04:52:36] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:04:52:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:04:52:36] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:04:52:36] ENGINE Bus STARTED
+[25/Jan/2015:04:53:13] ENGINE Started monitor thread 'Session cleanup'.
+[25/Jan/2015:04:55:18] ENGINE Keyboard Interrupt: shutting down bus
+[25/Jan/2015:04:55:18] ENGINE Bus STOPPING
+[25/Jan/2015:04:55:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:04:55:23] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:04:55:23] ENGINE Stopped thread 'Session cleanup'.
+[25/Jan/2015:04:55:23] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:04:55:23] ENGINE Freeing up Mako resources
+[25/Jan/2015:04:55:23] ENGINE Bus STOPPED
+[25/Jan/2015:04:55:23] ENGINE Bus EXITING
+[25/Jan/2015:04:55:23] ENGINE Bus EXITED
+[25/Jan/2015:04:55:23] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:04:55:25] ENGINE Listening for SIGHUP.
+[25/Jan/2015:04:55:25] ENGINE Listening for SIGTERM.
+[25/Jan/2015:04:55:25] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:04:55:25] ENGINE Bus STARTING
+[25/Jan/2015:04:55:25] ENGINE Setting up Mako resources
+[25/Jan/2015:04:55:25] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:04:55:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:04:55:25] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:04:55:25] ENGINE Bus STARTED
+[25/Jan/2015:04:57:13] ENGINE Keyboard Interrupt: shutting down bus
+[25/Jan/2015:04:57:13] ENGINE Bus STOPPING
+[25/Jan/2015:04:57:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:04:57:18] ENGINE Freeing up Mako resources
+[25/Jan/2015:04:57:18] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:04:57:18] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:04:57:18] ENGINE Bus STOPPED
+[25/Jan/2015:04:57:18] ENGINE Bus EXITING
+[25/Jan/2015:04:57:18] ENGINE Bus EXITED
+[25/Jan/2015:04:57:18] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:04:57:19] ENGINE Listening for SIGHUP.
+[25/Jan/2015:04:57:19] ENGINE Listening for SIGTERM.
+[25/Jan/2015:04:57:19] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:04:57:19] ENGINE Bus STARTING
+[25/Jan/2015:04:57:19] ENGINE Setting up Mako resources
+[25/Jan/2015:04:57:19] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:04:57:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:04:57:19] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:04:57:19] ENGINE Bus STARTED
+[25/Jan/2015:05:08:28] ENGINE Restarting because /home/mike/Documents/cherrypy-default/conf/server.cfg changed.
+[25/Jan/2015:05:08:28] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:05:08:28] ENGINE Bus STOPPING
+[25/Jan/2015:05:08:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:05:08:28] ENGINE Freeing up Mako resources
+[25/Jan/2015:05:08:28] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:05:08:28] ENGINE Bus STOPPED
+[25/Jan/2015:05:08:28] ENGINE Bus EXITING
+[25/Jan/2015:05:08:28] ENGINE Bus EXITED
+[25/Jan/2015:05:08:28] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:05:08:28] ENGINE Re-spawning server.py
+[25/Jan/2015:05:10:51] ENGINE Listening for SIGHUP.
+[25/Jan/2015:05:10:51] ENGINE Listening for SIGTERM.
+[25/Jan/2015:05:10:51] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:05:10:51] ENGINE Bus STARTING
+[25/Jan/2015:05:10:51] ENGINE Setting up Mako resources
+[25/Jan/2015:05:10:51] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:05:10:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:05:10:52] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:05:10:52] ENGINE Bus STARTED
+[25/Jan/2015:05:11:39] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:05:11:39] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:05:11:39] ENGINE Bus STOPPING
+[25/Jan/2015:05:11:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:05:11:39] ENGINE Freeing up Mako resources
+[25/Jan/2015:05:11:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:05:11:39] ENGINE Bus STOPPED
+[25/Jan/2015:05:11:39] ENGINE Bus EXITING
+[25/Jan/2015:05:11:39] ENGINE Bus EXITED
+[25/Jan/2015:05:11:39] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:05:11:39] ENGINE Re-spawning server.py
+[25/Jan/2015:05:11:39] ENGINE Listening for SIGHUP.
+[25/Jan/2015:05:11:39] ENGINE Listening for SIGTERM.
+[25/Jan/2015:05:11:39] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:05:11:39] ENGINE Bus STARTING
+[25/Jan/2015:05:11:39] ENGINE Setting up Mako resources
+[25/Jan/2015:05:11:39] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:05:11:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:05:11:39] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:05:11:39] ENGINE Bus STARTED
+[25/Jan/2015:05:13:20] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:05:13:20] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:05:13:20] ENGINE Bus STOPPING
+[25/Jan/2015:05:13:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:05:13:20] ENGINE Freeing up Mako resources
+[25/Jan/2015:05:13:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:05:13:20] ENGINE Bus STOPPED
+[25/Jan/2015:05:13:20] ENGINE Bus EXITING
+[25/Jan/2015:05:13:20] ENGINE Bus EXITED
+[25/Jan/2015:05:13:20] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:05:13:20] ENGINE Re-spawning server.py
+[25/Jan/2015:05:14:00] ENGINE Listening for SIGHUP.
+[25/Jan/2015:05:14:00] ENGINE Listening for SIGTERM.
+[25/Jan/2015:05:14:00] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:05:14:00] ENGINE Bus STARTING
+[25/Jan/2015:05:14:00] ENGINE Setting up Mako resources
+[25/Jan/2015:05:14:00] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:05:14:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:05:14:00] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:05:14:00] ENGINE Bus STARTED
+[25/Jan/2015:05:14:41] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:05:14:41] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:05:14:41] ENGINE Bus STOPPING
+[25/Jan/2015:05:14:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:05:14:41] ENGINE Freeing up Mako resources
+[25/Jan/2015:05:14:41] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:05:14:41] ENGINE Bus STOPPED
+[25/Jan/2015:05:14:41] ENGINE Bus EXITING
+[25/Jan/2015:05:14:41] ENGINE Bus EXITED
+[25/Jan/2015:05:14:41] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:05:14:41] ENGINE Re-spawning server.py
+[25/Jan/2015:05:14:41] ENGINE Listening for SIGHUP.
+[25/Jan/2015:05:14:41] ENGINE Listening for SIGTERM.
+[25/Jan/2015:05:14:41] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:05:14:41] ENGINE Bus STARTING
+[25/Jan/2015:05:14:41] ENGINE Setting up Mako resources
+[25/Jan/2015:05:14:41] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:05:14:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:05:14:41] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:05:14:41] ENGINE Bus STARTED
+[25/Jan/2015:05:14:45] HTTP 
+Request Headers:
+  COOKIE: session_id=fc239d516b9b5d872d5ab680b6e2b61d3ac8d952
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:14:45] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:14:59] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:05:14:59] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:05:14:59] ENGINE Bus STOPPING
+[25/Jan/2015:05:14:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:05:14:59] ENGINE Freeing up Mako resources
+[25/Jan/2015:05:14:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:05:14:59] ENGINE Bus STOPPED
+[25/Jan/2015:05:14:59] ENGINE Bus EXITING
+[25/Jan/2015:05:14:59] ENGINE Bus EXITED
+[25/Jan/2015:05:14:59] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:05:14:59] ENGINE Re-spawning server.py
+[25/Jan/2015:05:14:59] ENGINE Listening for SIGHUP.
+[25/Jan/2015:05:14:59] ENGINE Listening for SIGTERM.
+[25/Jan/2015:05:14:59] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:05:14:59] ENGINE Bus STARTING
+[25/Jan/2015:05:14:59] ENGINE Setting up Mako resources
+[25/Jan/2015:05:14:59] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:05:14:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:05:15:00] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:05:15:00] ENGINE Bus STARTED
+[25/Jan/2015:05:15:01] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:15:01] HTTP 
+Request Headers:
+  COOKIE: session_id=409e12a2efa17c377d660938364780005028206d
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:15:06] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:15:06] HTTP 
+Request Headers:
+  COOKIE: session_id=ae2093c708ac380a2ae786c18bec842c1bb209b1
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:15:23] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:15:23] HTTP 
+Request Headers:
+  COOKIE: session_id=fa676dfb3d3a0c59042174ae53330d120bde3656
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:15:34] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:05:15:34] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:05:15:34] ENGINE Bus STOPPING
+[25/Jan/2015:05:15:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:05:15:34] ENGINE Freeing up Mako resources
+[25/Jan/2015:05:15:34] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:05:15:34] ENGINE Bus STOPPED
+[25/Jan/2015:05:15:34] ENGINE Bus EXITING
+[25/Jan/2015:05:15:34] ENGINE Bus EXITED
+[25/Jan/2015:05:15:34] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:05:15:34] ENGINE Re-spawning server.py
+[25/Jan/2015:05:15:34] ENGINE Listening for SIGHUP.
+[25/Jan/2015:05:15:34] ENGINE Listening for SIGTERM.
+[25/Jan/2015:05:15:34] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:05:15:34] ENGINE Bus STARTING
+[25/Jan/2015:05:15:34] ENGINE Setting up Mako resources
+[25/Jan/2015:05:15:34] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:05:15:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:05:15:34] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:05:15:34] ENGINE Bus STARTED
+[25/Jan/2015:05:19:39] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:05:19:39] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:05:19:39] ENGINE Bus STOPPING
+[25/Jan/2015:05:19:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:05:19:39] ENGINE Freeing up Mako resources
+[25/Jan/2015:05:19:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:05:19:39] ENGINE Bus STOPPED
+[25/Jan/2015:05:19:39] ENGINE Bus EXITING
+[25/Jan/2015:05:19:39] ENGINE Bus EXITED
+[25/Jan/2015:05:19:39] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:05:19:39] ENGINE Re-spawning server.py
+[25/Jan/2015:05:19:39] ENGINE Listening for SIGHUP.
+[25/Jan/2015:05:19:39] ENGINE Listening for SIGTERM.
+[25/Jan/2015:05:19:39] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:05:19:39] ENGINE Bus STARTING
+[25/Jan/2015:05:19:39] ENGINE Setting up Mako resources
+[25/Jan/2015:05:19:39] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:05:19:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:05:19:39] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:05:19:39] ENGINE Bus STARTED
+[25/Jan/2015:05:19:42] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:19:42] HTTP 
+Request Headers:
+  COOKIE: session_id=da495f2da55c8a0431737cfed1dc70d2ee8a0d73
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:53:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:53:16] HTTP 
+Request Headers:
+  COOKIE: session_id=e7423881b7c609727b9c399e42bc94e14df789ee
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:53:17] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:53:17] HTTP 
+Request Headers:
+  COOKIE: session_id=414328ade89d77835ba8c9be8ab68a85c5c22836
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:05:53:18] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:05:53:18] HTTP 
+Request Headers:
+  COOKIE: session_id=13ab29d35c5009bf7e2a7cabcab9ebae90384216
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:06:12:29] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:06:12:29] HTTP 
+Request Headers:
+  COOKIE: session_id=88303010f231979098b9009a7e31b540f3cbf297
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:06:22:09] ENGINE Started monitor thread 'Session cleanup'.
+[25/Jan/2015:06:22:15] ENGINE Keyboard Interrupt: shutting down bus
+[25/Jan/2015:06:22:15] ENGINE Bus STOPPING
+[25/Jan/2015:06:22:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:06:22:19] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:06:22:19] ENGINE Stopped thread 'Session cleanup'.
+[25/Jan/2015:06:22:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:06:22:19] ENGINE Freeing up Mako resources
+[25/Jan/2015:06:22:19] ENGINE Bus STOPPED
+[25/Jan/2015:06:22:19] ENGINE Bus EXITING
+[25/Jan/2015:06:22:19] ENGINE Bus EXITED
+[25/Jan/2015:06:22:19] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:06:31:55] ENGINE Listening for SIGHUP.
+[25/Jan/2015:06:31:55] ENGINE Listening for SIGTERM.
+[25/Jan/2015:06:31:55] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:06:31:55] ENGINE Bus STARTING
+[25/Jan/2015:06:31:55] ENGINE Setting up Mako resources
+[25/Jan/2015:06:31:55] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:06:31:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:06:31:55] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:06:31:55] ENGINE Bus STARTED
+[25/Jan/2015:06:32:12] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:06:32:12] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:06:32:12] ENGINE Bus STOPPING
+[25/Jan/2015:06:32:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:06:32:15] ENGINE Freeing up Mako resources
+[25/Jan/2015:06:32:15] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:06:32:15] ENGINE Bus STOPPED
+[25/Jan/2015:06:32:15] ENGINE Bus EXITING
+[25/Jan/2015:06:32:15] ENGINE Bus EXITED
+[25/Jan/2015:06:32:15] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:06:32:15] ENGINE Re-spawning server.py
+[25/Jan/2015:06:32:16] ENGINE Listening for SIGHUP.
+[25/Jan/2015:06:32:16] ENGINE Listening for SIGTERM.
+[25/Jan/2015:06:32:16] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:06:32:16] ENGINE Bus STARTING
+[25/Jan/2015:06:32:16] ENGINE Setting up Mako resources
+[25/Jan/2015:06:32:16] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:06:32:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:06:32:16] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:06:32:16] ENGINE Bus STARTED
+[25/Jan/2015:06:32:17] ENGINE Started monitor thread 'Session cleanup'.
+[25/Jan/2015:07:47:08] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:07:47:08] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:07:47:08] ENGINE Bus STOPPING
+[25/Jan/2015:07:47:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:07:47:08] ENGINE Stopped thread 'Session cleanup'.
+[25/Jan/2015:07:47:08] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:07:47:08] ENGINE Freeing up Mako resources
+[25/Jan/2015:07:47:08] ENGINE Bus STOPPED
+[25/Jan/2015:07:47:08] ENGINE Bus EXITING
+[25/Jan/2015:07:47:08] ENGINE Bus EXITED
+[25/Jan/2015:07:47:08] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:07:47:08] ENGINE Re-spawning server.py
+[25/Jan/2015:07:47:08] ENGINE Listening for SIGHUP.
+[25/Jan/2015:07:47:08] ENGINE Listening for SIGTERM.
+[25/Jan/2015:07:47:08] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:07:47:08] ENGINE Bus STARTING
+[25/Jan/2015:07:47:08] ENGINE Setting up Mako resources
+[25/Jan/2015:07:47:08] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:07:47:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:07:47:09] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:07:47:09] ENGINE Bus STARTED
+[25/Jan/2015:07:48:55] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:07:48:55] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:07:48:55] ENGINE Bus STOPPING
+[25/Jan/2015:07:48:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:07:48:55] ENGINE Freeing up Mako resources
+[25/Jan/2015:07:48:55] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:07:48:55] ENGINE Bus STOPPED
+[25/Jan/2015:07:48:55] ENGINE Bus EXITING
+[25/Jan/2015:07:48:55] ENGINE Bus EXITED
+[25/Jan/2015:07:48:55] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:07:48:55] ENGINE Re-spawning server.py
+[25/Jan/2015:07:49:13] ENGINE Listening for SIGHUP.
+[25/Jan/2015:07:49:13] ENGINE Listening for SIGTERM.
+[25/Jan/2015:07:49:13] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:07:49:13] ENGINE Bus STARTING
+[25/Jan/2015:07:49:13] ENGINE Setting up Mako resources
+[25/Jan/2015:07:49:13] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:07:49:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:07:49:13] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:07:49:13] ENGINE Bus STARTED
+[25/Jan/2015:07:49:45] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:07:49:45] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:07:49:45] ENGINE Bus STOPPING
+[25/Jan/2015:07:49:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:07:49:45] ENGINE Freeing up Mako resources
+[25/Jan/2015:07:49:45] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:07:49:45] ENGINE Bus STOPPED
+[25/Jan/2015:07:49:45] ENGINE Bus EXITING
+[25/Jan/2015:07:49:45] ENGINE Bus EXITED
+[25/Jan/2015:07:49:45] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:07:49:45] ENGINE Re-spawning server.py
+[25/Jan/2015:07:49:45] ENGINE Listening for SIGHUP.
+[25/Jan/2015:07:49:45] ENGINE Listening for SIGTERM.
+[25/Jan/2015:07:49:45] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:07:49:45] ENGINE Bus STARTING
+[25/Jan/2015:07:49:45] ENGINE Setting up Mako resources
+[25/Jan/2015:07:49:45] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:07:49:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:07:49:45] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:07:49:45] ENGINE Bus STARTED
+[25/Jan/2015:07:49:49] HTTP 
+Request Headers:
+  COOKIE: session_id=c649d0f92d1ba979cefc722699aad51a22d700fa
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:49] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:49:54] HTTP 
+Request Headers:
+  COOKIE: session_id=ab49e22007348f59c71b26ee3e6e57f0098d707e
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:54] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:49:55] HTTP 
+Request Headers:
+  COOKIE: session_id=fd139e3197efb3e42640d8ee23e43c97906f6d87
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:55] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:49:57] HTTP 
+Request Headers:
+  COOKIE: session_id=9e1ba43d75337c278263e55e503b25ea21857cb8
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:49:57] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:50:32] ENGINE Started monitor thread 'Session cleanup'.
+[25/Jan/2015:07:52:03] HTTP 
+Request Headers:
+  COOKIE: session_id=ee99e3454ab1123dd8fa10df80fb8433deced420
+  HOST: localhost:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  ACCEPT-ENCODING: gzip,deflate,sdch
+[25/Jan/2015:07:52:03] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
+
+[25/Jan/2015:07:52:37] ENGINE Restarting because /home/mike/Documents/cherrypy-default/server.py changed.
+[25/Jan/2015:07:52:37] ENGINE Stopped thread 'Autoreloader'.
+[25/Jan/2015:07:52:37] ENGINE Bus STOPPING
+[25/Jan/2015:07:52:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9000)) shut down
+[25/Jan/2015:07:52:37] ENGINE Stopped thread 'Session cleanup'.
+[25/Jan/2015:07:52:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Jan/2015:07:52:37] ENGINE Freeing up Mako resources
+[25/Jan/2015:07:52:37] ENGINE Bus STOPPED
+[25/Jan/2015:07:52:37] ENGINE Bus EXITING
+[25/Jan/2015:07:52:37] ENGINE Bus EXITED
+[25/Jan/2015:07:52:37] ENGINE Waiting for child threads to terminate...
+[25/Jan/2015:07:52:37] ENGINE Re-spawning server.py
+[25/Jan/2015:07:52:37] ENGINE Listening for SIGHUP.
+[25/Jan/2015:07:52:37] ENGINE Listening for SIGTERM.
+[25/Jan/2015:07:52:37] ENGINE Listening for SIGUSR1.
+[25/Jan/2015:07:52:37] ENGINE Bus STARTING
+[25/Jan/2015:07:52:37] ENGINE Setting up Mako resources
+[25/Jan/2015:07:52:37] ENGINE Started monitor thread 'Autoreloader'.
+[25/Jan/2015:07:52:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Jan/2015:07:52:37] ENGINE Serving on http://0.0.0.0:9000
+[25/Jan/2015:07:52:37] ENGINE Bus STARTED

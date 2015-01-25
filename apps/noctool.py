@@ -12,8 +12,9 @@ class Root(object):
     pass
 
   @cherrypy.expose
-  def gameAccount():
-    return "Game Account Page"
+  @cherrypy.tools.render(template='gameAccount.mako')
+  def gameAccount(self):
+    pass
 
 class Generator(object):
   exposed = True
