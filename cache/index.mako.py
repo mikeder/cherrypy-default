@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1420978818.877634
+_modified_time = 1422536284.546185
 _enable_loop = True
-_template_filename = '/home/mike/Documents/noc-tools/template/index.mako'
+_template_filename = '/home/meder/cherrypy-default/template/index.mako'
 _template_uri = 'index.mako'
 _source_encoding = 'utf-8'
 _exports = []
@@ -17,7 +17,7 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         __M_writer = context.writer()
-        __M_writer(u'<!DOCTYPE html>\n<html>\n<head>\n<link href="/static/css/style.css" rel="stylesheet">\n<title>NOC Tool v0.01</title>\n<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>\n     <script type="text/javascript">\n       $(document).ready(function() {\n\n         $("#generate").click(function(e) {\n           $.post("/generator", {"length": $("select[name=\'length\']").val()})\n            .done(function(string) {\n               $("#string").show();\n               $("#string input").val(string);\n            });\n           e.preventDefault();\n         });\n       });\n     </script>\n</head>\n<body>\n<h2>NOC Tool aka Derpstation 9000</h2>\n<hr>\nRandom sequence generator:\n<form name="generator">\n  <select name="length">\n    <option value="5">5</option>\n    <option value="6">6</option>\n    <option value="7">7</option>\n    <option value="8">8</option>\n    <option value="9">9</option>\n    <option value="10">10</option>\n    <option value="11">11</option>\n    <option value="12">12</option>\n    <option value="13">13</option>\n    <option value="14">14</option>\n    <option value="15">15</option>\n    <option value="16">16</option>\n    <option value="17">17</option>\n    <option value="18">18</option>\n    <option value="19">19</option>\n    <option value="20">20</option>\n  </select>\n  <button id="generate">Generate</button>\n</form>\n<div id="string">\n  <input type="text" width="25" />\n</div>\n</body>\n</html>\n\n')
+        __M_writer(u'<!DOCTYPE html>\n<html>\n<head>\n<!-- Latest compiled and minified CSS -->\n<link rel="stylesheet" href="/static/css/bootstrap.min.css">\n\n<!-- Optional theme -->\n<link rel="stylesheet" href="/static/css/bootstrap-theme.min.css">\n\n<!-- Latest compiled and minified JavaScript -->\n<script src="/static/js/bootstrap.js"></script>\n<title>SqweebNet</title>\n</head>\n<body>\n<nav class="navbar navbar-inverse">\n  <div class="container-fluid">\n    <!-- Brand and toggle get grouped for better mobile display -->\n    <div class="navbar-header">\n      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">\n        <span class="sr-only">Toggle navigation</span>\n        <span class="icon-bar"></span>\n        <span class="icon-bar"></span>\n        <span class="icon-bar"></span>\n      </button>\n      <a class="navbar-brand" href="/">SqweebNet</a>\n    </div>\n\n    <!-- Collect the nav links, forms, and other content for toggling -->\n    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">\n      <ul class="nav navbar-nav">\n        <li><a href="/charts">Charts</a></li>\n        <li class="dropdown">\n          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu<span class="caret"></span></a>\n          <ul class="dropdown-menu" role="menu">\n            <li><a href="http://github.com/mikeder">GitHub</a></li>\n            <li><a href="http://mikeder.net">mikeder.net</a></li>\n            <li><a href="http://sqweeb.net:8080">CherryMusic</a></li>\n            <li class="divider"></li>\n            <li><a href="#">Separated link</a></li>\n            <li class="divider"></li>\n            <li><a href="#">One more separated link</a></li>\n          </ul>\n        </li>\n      </ul>\n      <form class="navbar-form navbar-left" role="search">\n        <div class="form-group">\n          <input type="text" class="form-control" placeholder="Search">\n        </div>\n        <button type="submit" class="btn btn-default">Submit</button>\n      </form>\n      <ul class="nav navbar-nav navbar-right">\n        <li><a href="#">Link</a></li>\n        <li class="dropdown">\n          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>\n          <ul class="dropdown-menu" role="menu">\n            <li><a href="#">Action</a></li>\n            <li><a href="#">Another action</a></li>\n            <li><a href="#">Something else here</a></li>\n            <li class="divider"></li>\n            <li><a href="#">Separated link</a></li>\n          </ul>\n        </li>\n      </ul>\n    </div><!-- /.navbar-collapse -->\n  </div><!-- /.container-fluid -->\n</nav>\n<div class="container">\n  <!-- Example row of columns -->\n  <div class="row">\n    <div class="col-md-6">\n      <h2>CherryMusic</h2>\n    </div>\n    <div class="col-md-6">\n      <h2>RSDC</h2>\n    </div>\n   </div>\n  </div>\n\n  <hr>\n\n  <footer>\n    <p>&copy; Company 2014</p>\n  </footer>\n</div> <!-- /container -->\n\n\n</div>\n</body></html>\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -25,6 +25,6 @@ def render_body(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"26": 20, "20": 1, "15": 0}, "uri": "index.mako", "filename": "/home/mike/Documents/noc-tools/template/index.mako"}
+{"source_encoding": "utf-8", "line_map": {"26": 20, "20": 1, "15": 0}, "uri": "index.mako", "filename": "/home/meder/cherrypy-default/template/index.mako"}
 __M_END_METADATA
 """

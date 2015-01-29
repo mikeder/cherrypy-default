@@ -32,8 +32,8 @@ class Server(object):
     cherrypy.tools.render = MakoTool()
 
     # Mount apps to be run 
-    from apps.noctool import Root, Generator
-    app = Root()
+    from apps.root import Index, Generator
+    app = Index()
     app.generator = Generator()
     conf = os.path.join(self.conf_path, 'app.cfg')
     webapp = cherrypy.tree.mount(app, '/', conf)

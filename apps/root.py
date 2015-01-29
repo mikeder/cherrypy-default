@@ -2,19 +2,29 @@ import random
 import string
 import cherrypy
 
-__all__ = ['NocTool']
+__all__ = ['Root']
 
-class Root(object):
+class Index(object):
   
   @cherrypy.expose
   @cherrypy.tools.render(template='index.mako')
-  def index(self):
+  def index(test=None):
+    test = 'words'
+    return {'test': test} 
+
+  @cherrypy.expose
+  @cherrypy.tools.render(template='charts.mako')
+  def charts(self):
     pass
 
   @cherrypy.expose
-  @cherrypy.tools.render(template='gameAccount.mako')
-  def gameAccount(self):
-    pass
+  @cherrypy.tools.render(template='test.mako')
+  def test(body=None):
+    derp = 'Mike'
+    body = '''
+            <h1> SqweebNet Testing Grounds </h1>
+            Here derps derpington %s''' % derp
+    return {'body':body}
 
 class Generator(object):
   exposed = True

@@ -1500,3 +1500,171 @@ Request Headers:
     return self.callable(*self.args, **self.kwargs)
 TypeError: unbound method gameAccount() must be called with Root instance as first argument (got nothing instead)
 
+[29/Jan/2015:04:55:28]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+TypeError: _render() got an unexpected keyword argument 'test'
+
+[29/Jan/2015:04:55:28] HTTP 
+Request Headers:
+  COOKIE: session_id=5e9710487ed1aba1202aec3def3b497d533027ae
+  HOST: tools:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.250
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  DNT: 1
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[29/Jan/2015:04:55:28] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 674, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+TypeError: _render() got an unexpected keyword argument 'test'
+
+[29/Jan/2015:05:51:16] HTTP 
+Request Headers:
+  COOKIE: session_id=0de88a09da4264a8a561032cc321168e25749f60
+  HOST: tools:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.250
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  DNT: 1
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[29/Jan/2015:05:51:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/meder/cherrypy-default/apps/root.py", line 13, in index
+    insert = self.test()
+NameError: global name 'self' is not defined
+
+[29/Jan/2015:05:51:17] HTTP 
+Request Headers:
+  COOKIE: session_id=9cb1192d6f78cda413c93ebbca5b5c1f40f36d83
+  HOST: tools:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.250
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  DNT: 1
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[29/Jan/2015:05:51:17] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/meder/cherrypy-default/apps/root.py", line 13, in index
+    insert = self.test()
+NameError: global name 'self' is not defined
+
+[29/Jan/2015:05:51:44] HTTP 
+Request Headers:
+  COOKIE: session_id=6cfe0bb9d44e14b767692df2958de77dc9472a6b
+  HOST: tools:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.250
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  DNT: 1
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[29/Jan/2015:05:51:44] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/meder/cherrypy-default/apps/root.py", line 13, in index
+    insert = test()
+TypeError: 'str' object is not callable
+
+[29/Jan/2015:05:51:46] HTTP 
+Request Headers:
+  COOKIE: session_id=c4231103af79c925d19ddc9fb8d6323659de3140
+  HOST: tools:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.250
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  DNT: 1
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[29/Jan/2015:05:51:46] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/meder/cherrypy-default/apps/root.py", line 13, in index
+    insert = test()
+TypeError: 'str' object is not callable
+
+[29/Jan/2015:06:02:59] HTTP 
+Request Headers:
+  REFERER: http://tools:9000/?
+  HOST: tools:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.250
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+  COOKIE: session_id=7844b446ad693674db1f51f9903f8c4f23c1930a
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  DNT: 1
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[29/Jan/2015:06:02:59] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: charts() takes no arguments (1 given)
+
+[29/Jan/2015:06:03:20] HTTP 
+Request Headers:
+  REFERER: http://tools:9000/?
+  HOST: tools:9000
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.250
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+  COOKIE: session_id=0072c2d850fcaa81fc1c64942d917fffaf909c72
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  DNT: 1
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[29/Jan/2015:06:03:20] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: charts() takes no arguments (1 given)
+
+[29/Jan/2015:06:03:23] HTTP 
+Request Headers:
+  REFERER: http://tools:9000/?
+  HOST: tools:9000
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.250
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+  COOKIE: session_id=a1c28ff92b993f688ee54d514ffa5222d3b35602
+  ACCEPT-LANGUAGE: en-US,en;q=0.8
+  DNT: 1
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[29/Jan/2015:06:03:23] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 61, in __call__
+    return self.callable(*self.args, **self.kwargs)
+TypeError: charts() takes no arguments (1 given)
+
